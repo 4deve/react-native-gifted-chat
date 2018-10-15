@@ -58,7 +58,8 @@ const styles = StyleSheet.create({
   textInput: {
     flex: 1,
     marginLeft: 10,
-    fontSize: 16,
+    fontSize: 14,
+    fontWeight:"600",
     lineHeight: 16,
     marginTop: Platform.select({
       ios: 6,
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
 Composer.defaultProps = {
   composerHeight: MIN_COMPOSER_HEIGHT,
   text: '',
-  placeholderTextColor: Color.defaultProps,
+  placeholderTextColor: "grey",
   placeholder: DEFAULT_PLACEHOLDER,
   textInputProps: null,
   multiline: true,
